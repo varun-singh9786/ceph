@@ -47,6 +47,8 @@ In the creation of the secondary zone, its tier type must be set to ``pubsub``:
 
    # radosgw-admin zone create --rgw-zonegroup={zone-group-name} \
                                 --rgw-zone={zone-name} \
+                                --access_key={access_key} \
+                                --secret_key={secret_key} \
                                 --endpoints={http://fqdn}[,{http://fqdn}]
                                 --tier-type=pubsub
 
